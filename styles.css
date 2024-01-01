@@ -1,0 +1,26 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-image: url(https://i.pinimg.com/originals/54/3f/02/543f0277101052b3b36758b860b2b9bc.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.member img {
+  width: 150px;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.member img:hover {
+  width: 250px;
+}

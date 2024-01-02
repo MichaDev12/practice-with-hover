@@ -15,12 +15,82 @@ body {
   gap: 20px;
 }
 
-.member img {
-  width: 150px;
-  border-radius: 20px;
+.member {
+  width: 154px;
+  height: 204px;
+  position: relative;
   transition: all 0.2s ease;
+  border-radius: 20px;
 }
 
-.member img:hover {
+.member:hover {
+  display: flex;
+  flex-direction: column;
   width: 250px;
+  height: 90%;
+}
+
+.name {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+}
+
+.name p {
+  margin: 0;
+}
+
+.member:hover .name {
+  visibility: visible;
+  position: static;
+  height: 10%;
+}
+
+.img {
+  position: relative;
+  z-index: 3;
+}
+
+.member img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  padding: 5px;
+}
+
+.info p {
+  margin: 0;
+}
+
+.member:hover .info {
+  visibility: visible;
+  position: static;
+}
+
+.minji img{
+  border: 5px solid yellow;
+}
+
+.minji:hover img {
+  border: none;
+}
+
+.minji:hover {
+  background-color: yellow;
+  border: 2px solid yellow;
 }

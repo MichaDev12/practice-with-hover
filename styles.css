@@ -82,15 +82,51 @@ body {
   position: static;
 }
 
-.minji img{
-  border: 5px solid yellow;
+.member:hover img {
+  border: none;
 }
 
-.minji:hover img {
-  border: none;
+.minji img{
+  border: 5px solid yellow;
 }
 
 .minji:hover {
   background-color: yellow;
   border: 2px solid yellow;
+}
+
+.hanni img{
+  border: 5px solid pink;
+}
+
+.hanni:hover {
+  background-color: pink;
+  border: 2px solid pink;
+}
+
+.danielle img{
+  border: 5px solid green;
+}
+
+.danielle:hover {
+  background-color: green;
+  border: 2px solid green;
+}
+
+.haerin img{
+  border: 5px solid white;
+}
+
+.haerin:hover {
+  background-color: white;
+  border: 2px solid white;
+}
+
+.hyein img{
+  border: 5px solid lightblue;
+}
+
+.hyein:hover {
+  background-color: lightblue;
+  border: 2px solid lightblue;
 }

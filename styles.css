@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  background-image: url(https://i.pinimg.com/originals/54/3f/02/543f0277101052b3b36758b860b2b9bc.png);
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e224e48-690b-42e8-beff-c90e1a6cd7f8/dfm5uid-8b555f59-cc72-466c-92c4-a9813cd009e9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVlMjI0ZTQ4LTY5MGItNDJlOC1iZWZmLWM5MGUxYTZjZDdmOFwvZGZtNXVpZC04YjU1NWY1OS1jYzcyLTQ2NmMtOTJjNC1hOTgxM2NkMDA5ZTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.baqP-YxbNE58_PF6Ev2m774LUeofBSwA5Y1H6KUhqD4);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 250px;
-  height: 90%;
+  height: 520px;
 }
 
 .name {
